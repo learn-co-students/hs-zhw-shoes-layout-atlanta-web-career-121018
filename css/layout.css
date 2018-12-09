@@ -24,4 +24,26 @@
 
 /* Positioning Classes */
 
+.float-wrapper > section {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  height: 100%;
+  display: inline-block;
+}
 
+.col-1 {
+  width: 32%;
+}
+
+.col-2 {
+  width: 66%;
+}
+
+section.right {
+  float: right;
+}
+
+section.left {
+  float: left;
+  margin-left: 0;
+}
